@@ -1,0 +1,106 @@
+.footer {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.footer-top {
+  padding: 60px 0;
+}
+
+.footer-copyright {
+  padding: 20px 0;
+  font-size: 14px;
+  /*aplica borda em cima e diminui a visibilidade no branco*/
+  /*border-top: 1px solid #ffffff42;*/
+  border-top: 1px solid rgba(255,255,255,0.3);
+  text-align: center;
+}
+
+.footer-col {
+  width: 30%;
+  float: left;
+}
+
+/*segundo item*/
+.footer-col:nth-child(2) {
+  width: 40%;
+}
+
+.footer-news label {
+  font-size: 14px;
+  text-transform: lowercase;
+  float: left;
+  padding: 6px 15px 0 0;
+}
+
+.footer-news input {
+  border: 0;
+  background-color: var(--primary);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 48px;
+  float: left;
+  width: 280px;
+  outline: none;
+}
+.footer-news input:focus {
+  background-color: var(--light);
+}
+
+.footer-news button {
+  border: 0;
+  background: var(--light);
+  height: 48px;
+  font-size: 25px;
+  padding: 0 18px;
+  float: left;
+  /*tira o azul da borda quando arrasta*/
+  outline: none;
+  cursor: pointer;
+}
+.footer-news button:hover {
+  background-color: var(--primary);
+  cursor:pointer;
+}
+
+.footer-social {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: right;
+}
+
+/*inline - block: deixa mexer como se fosse um block e deixa mexer nos paddings*/
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-social li a {
+  display: block;
+  color: var(--light);
+  font-size: 25px;
+  padding: 10px 5px;
+}
+.footer-social li a:hover {
+  color: var(--primary);
+}
+
+/*código copiado pra acessar o placeholder*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--dark);
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: var(--dark);
+}
+  
+:-ms-input-placeholder { /* IE 10+ */
+    color: var(--dark);
+}
+  
+:-moz-placeholder { /* Firefox 18- */
+    color: var(--dark);
+}

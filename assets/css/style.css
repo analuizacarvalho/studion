@@ -1,0 +1,11 @@
+/*A ordem do import importa*/
+@import "variables.css";
+@import "global.css";
+@import "components.css";
+@import "header.css";
+@import "footer.css";
+@import "home.css";
+@import "contact.css";
+@import "company.css";
+@import "events.css";
+@import "depoiments.css";

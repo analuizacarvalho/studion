@@ -1,0 +1,44 @@
+.company-page {
+  background-image: url("../images/company.jpg");
+}
+
+/*Content*/
+
+.company-content {
+  padding-top: 40px;
+}
+
+.company-content .container {
+  display: flex;
+  /*verticalmente*/
+  align-items: center;
+  /*horizontalmente
+  justify-content: space-between;*/
+}
+
+.company-man img {
+  display: block;
+  /*pra corrigir um espaçamento natural da imagem por conta do inline que a imagem é*/
+  margin-right: -50px;
+}
+
+.company-description {
+  padding: 0 100px 0 60px;
+}
+
+/*Customer*/
+
+.company-customer {
+  padding: 70px 0;
+  background: var(--primary);
+  text-align: center;
+}
+
+.company-customer h2 {
+  margin-bottom: 50px;
+}
+
+.company-video {
+  padding: 70px 0;
+  text-align: center;
+}
